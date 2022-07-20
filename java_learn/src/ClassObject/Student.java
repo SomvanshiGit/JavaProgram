@@ -6,8 +6,18 @@ public class Student {
 	String sname;
 	char Grade;
 	
+	Student(int id, String name, char g)// Constructor 
+	{
+
+		sid=id;
+		sname=name;
+		Grade=g;
+		
+	}
+	
+	
 	// create method
-	void getvalue(int id, String name, char g) {
+	void getvalue(int id, String name, char g) { 
 		
 		sid=id;
 		sname=name;
