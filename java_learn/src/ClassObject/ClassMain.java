@@ -21,8 +21,7 @@ public class ClassMain {
 		emp2.deptno=12;
 		emp2.job="jr QA";
 		emp2.display();
-		//
-
+		
 	}
 
 }
