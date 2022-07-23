@@ -16,6 +16,15 @@ public class StaticExample {
 	}
 	
 	
+	void m3() //this is non static method  and this can acess both non and static variable and method.
+	{
+		System.out.println("This is non static menthod"); 
+		System.out.println(a);
+		System.out.println(b);
+		m1();
+		m2();
+		
+	}
 	
 
 	public static void main(String[] args) {
@@ -27,10 +36,13 @@ public class StaticExample {
 		
 		// if main method in the another class file then we have to specify the class name like StaticExample.a to access static variable and same way for static method.
 		
-		// Static method can also non static stuff but through object.
+		// Static method can also access the non static stuff but through object.
 		StaticExample se=new StaticExample();
 		System.out.println(se.b);
 		se.m2();
+		
+		StaticExample se1=new StaticExample();
+		se.m3();
 		
 	}
 }
