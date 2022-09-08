@@ -9,7 +9,7 @@ public class AccountHolderObjects {
 		AccountHolder Henry = new AccountHolder();
 		AccountHolder sarah = new AccountHolder();
 		
-		//call the  attributes 
+		//call the  attributes , test
 		Tom.firstname="Tom";
 		Tom.lastname="Smith";
 		Tom.age=20;
