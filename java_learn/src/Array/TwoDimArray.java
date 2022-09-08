@@ -15,7 +15,7 @@ public class TwoDimArray {
 		a[2][0]=500;
 		a[2][1]=600;
 		
-		//int a[][]= { {100,200} ,{300,400}, {500,600} };
+		//int a[][]= { {100,200} ,{300,400}, {500,600} }; test
 		
 		System.out.println("Numbers of raw: "+a.length); // count raws of arrays 
 		
