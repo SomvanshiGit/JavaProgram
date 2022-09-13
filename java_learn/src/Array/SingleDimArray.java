@@ -6,7 +6,7 @@ public class SingleDimArray {
 		
 		//int a[]=new int[5];  // declared arrow with size 5 , starting index is 0 and last index is 4
 		
-		// Inserting value into the arrows 
+		// Inserting value into the arrows. 
 		/*a[0]=100;
 		a[1]=200;
 		a[2]=300;
