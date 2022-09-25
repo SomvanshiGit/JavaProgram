@@ -8,7 +8,7 @@ class A
 		System.out.println(a);
 	}
 }
-class B extends A   // B is child class and A is parent class and to acess A class stuff use extends
+class B extends A   // B is child class and A is parent class and to access A class stuff use extends
 {
 	int b;
 	void print()
@@ -16,6 +16,14 @@ class B extends A   // B is child class and A is parent class and to acess A cla
 		System.out.println(b);
 	}
 	
+}
+class C extends B
+{
+	int c;
+	void show()
+	{
+		System.out.println(c);
+	}
 }
 
 public class SingleLevel {
@@ -31,7 +39,13 @@ public class SingleLevel {
 		bobj.a=100;
 		bobj.b=200;
 		bobj.display();
-		bobj.print();		
+		bobj.print();
+		
+		/*C cobj=new C();
+		cobj.a=10;
+		cobj.b=20;
+		cobj.c=30;
+		*/
 
 	}
 
